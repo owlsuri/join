@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.backGround{
+    margin: 20px auto;
+    width: 670px;
+    height: 960px;  
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #AACDFF;
+
+    box-shadow: 7px 7px 39px rgba(0, 104, 255, 0.25);
+    border-radius: 20px;
+
+    padding: 50px 100px 50px 100px;
+}
+h1{
+    margin-bottom: 10px;
+    color: #0068FF;
+}
+.info{
+    margin-top: 10px;
+    width: 100%;
+    padding: 17px;
+    border: 1px gray solid;
+    border-radius: 7px;
+    font-size: 15px;
+}
+p{
+    padding: 20;
+    font-size: smaller;
+    opacity: 0;
+    color: red;
+    text-align: center;
+}
+.phone-box{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.phone{
+    width: 140px;
+    height: 45px;
+    border: 1px gray solid ;
+    border-radius: 7px;
+    text-align: center;
+}
+.auth{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.authNum{
+    color: #0068FF;
+    font-size: 20px;
+    font-weight: 600;
+}
+.authBtn{
+    width: 120px;
+    height: 45px;
+    border: 1px gray solid;
+    border-radius: 7px;
+    font-size: 15px;
+    color: gray;
+    margin-left: 10px;
+    cursor: pointer;
+}
+select{
+    margin-top: 20px;
+    width: 100%;
+    padding: 17px;
+    border: 1px gray solid;
+    border-radius: 7px;
+    font-size: 15px;
+    color: gray;
+}
+.gender-box{
+    margin-top: 10px;
+    
+    text-align: center;
+    color: gray;
+}
+hr{
+    margin: 10px 0 20px 0;
+}
+.joinBtn{
+    width: 100%;
+    height: 80px;
+    border: 1px gray solid;
+    border-radius: 7px;
+    color: gray;
+    font-size: 18px;
+    cursor: pointer;
+}
